@@ -17,36 +17,49 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 100vh;
-  background-image: url(images/bg_2.jpg);
+  background-color: rgb(48, 52, 65);
 }
 
 nav a {
+  
   text-decoration: none;
   color: #000;
   padding: 6px 15px;
   border-radius: 20px;
-  margin: 0 10px;
+  margin: 0 30px;
   font-weight: 600;
+  font-size: large;
 }
+
 nav a:hover, 
 nav a.active {
     background: #000;
     color: #fff;
-    transition: .25s;
+    transition: .27s;
 }
+
+
 .wrapper{
   width: 1200px;
   background: white;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.315);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.315);
 }
 
 .wrapper header{
   display: flex;
   align-items: center;
   height: 55px;
-  border-radius: 15px;
+  border-radius: 10px;
 
 }
+
+.landingPage img{
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  
+}
+
+
