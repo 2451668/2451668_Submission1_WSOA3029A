@@ -5,3 +5,12 @@
     /*Preference for no scrollbar*/
     display: none;
 }
+
+html {
+    font-size: 62.5%;
+  overflow-x: hidden; 
+}
+
+body {
+    
+}
