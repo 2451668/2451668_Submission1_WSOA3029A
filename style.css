@@ -7,6 +7,7 @@
 }
 
 * {
+  scroll-behavior: smooth;
   margin: 20px;
   padding: 10px;
   box-sizing: border-box;
@@ -60,11 +61,25 @@ nav a.active {
   width: 1000px;
   border-radius: 20px;
 }
-.blogPage im g {
+.blogPage img {
   align-items: center;
   display: flex;
   width: 1000px;
   border-radius: 20px;
 }
 
-
+footer{
+  
+  text-align: center;
+  
+  background-color: rgba(48, 52, 65, 0.027);
+  border-radius: 15px;
+}
+footer p{
+font-weight: 400;
+color: rgb(155, 155, 155);
+}
+address{
+  font-weight: 200;
+color: rgb(155, 155, 155);
+}
