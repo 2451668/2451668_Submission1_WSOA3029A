@@ -7,6 +7,7 @@
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
     <title>Submission One</title>
     <link rel = "stylesheet" href = "style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 
 <body>
@@ -129,8 +130,13 @@
         </section>
         <section id = "dataVis" class = "blogPage">
             <h2>Data Visualisation Section</h2>
-            <p>This portion of the site will be dedicated for the data visualisation section once that segment has been completed.</p>
-            <img src = "images/gif_2.gif" alt = "gif showcasing the top costume searches in the US">
+            <div id="chart-container">
+                <svg id="bar-chart"></svg>
+            </div>
+            <script src="script.js"></script>
+            <!--<p>This portion of the site will be dedicated for the data visualisation section once that segment has been completed.</p>
+            <img src = "images/gif_2.gif" alt = "gif showcasing the top costume searches in the US">-->
+            
         </section>
         <section id = "dataArt" class = "blogPage">
             <h2>Data Art Section</h2>
